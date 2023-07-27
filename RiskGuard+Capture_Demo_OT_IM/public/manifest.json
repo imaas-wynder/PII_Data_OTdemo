@@ -1,0 +1,8 @@
+{
+  "short_name": "Risk Guard & Capture Service Demo",
+  "name": "Risk Guard & Capture Service Demo Application",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

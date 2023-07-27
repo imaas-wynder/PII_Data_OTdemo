@@ -1,0 +1,64 @@
+* {
+  font-family: OpenTextSans, sans-serif;
+}
+
+.ot2-sample-header {
+  background-color: #111B58;
+  height: 100px;
+  color: white;
+  margin: 0 0 0 auto;
+  padding: 20px 0 0 20px;
+  font-size: 36px;
+}
+
+.ot2-body {
+  margin: 20px;
+}
+
+button {
+  background-color: rgb(0,132,206);
+  color: rgb(255, 255, 255);
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 4px 24px;
+  line-height: 24px;
+  border: 1px solid rgb(0,132,206);
+  font-size: 14px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"][readonly], textarea[readonly] {
+    color: grey;
+}
+
+.fileButton {
+  background-color: rgb(0,132,206);
+  color: rgb(255, 255, 255);
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 8px 24px;
+  line-height: 24px;
+  border: 1px solid rgb(0,132,206);
+  font-size: 14px;
+}
+
+button:hover, .fileButton:hover {
+  background-color: rgb(51, 157, 216);
+}
+
+button:active, .fileButton:hover {
+  background-color: rgb(0, 99, 155);
+}
+
+hr {
+  width: 690px
+}
+
+textarea {
+  vertical-align: top;
+}
