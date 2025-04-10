@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:server": "webpack --config webpack.server.js",
-    "start:server": "node build/server.js"
+    "start:server": "node -r dotenv/config build/server.js"
   },
   "eslintConfig": {
     "extends": [
